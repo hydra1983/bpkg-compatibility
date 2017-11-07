@@ -1,0 +1,9 @@
+{
+    "name": "shcompatibility",
+    "version": "0.1.0",
+    "description": "Compatibility utils",
+    "scripts": [
+        "shcompatibility"
+    ],
+    "install": "make install"
+}

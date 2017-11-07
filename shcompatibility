@@ -1,0 +1,17 @@
+#!/usr/local/bin/bash
+
+function _esed() {
+  if _is_osx; then
+    sed -E -i "" "$@"
+  else
+    sed -r -i "$@"
+  fi
+}
+
+function _esed_in_place() {
+  if _is_osx; then
+    sed -E -i "" "$@"
+  else
+    sed -r -i "$@"
+  fi
+}
