@@ -3,7 +3,7 @@
 #========================================
 # Load Dependencies
 #========================================
-source "${__shcompatibility_script_dir}/deps/shcore/shcore"
+__load "__script_dir/deps/shcore/shcore"
 
 function _esed() {
   if _is_osx; then
