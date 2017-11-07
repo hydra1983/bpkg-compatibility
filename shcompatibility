@@ -3,7 +3,7 @@
 #========================================
 # Load Dependencies
 #========================================
-__load "__script_dir/deps/shcore/shcore"
+__load "${BASH_SOURCE[0]}" "deps/shcore/shcore"
 
 function _esed() {
   if _is_osx; then
